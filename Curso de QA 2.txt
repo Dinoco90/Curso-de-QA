@@ -1,3 +1,7 @@
+Crie 2 novos casos de teste usando esse mesmo padrão. Você pode continuar usando o Instagram ou escolher outro site que você conheça bem (Gmail, YouTube, etc).
+
+Dica: Um pode ser teste positivo (funciona) e outro negativo (ex: senha errada).
+
 Id: 1.
 Titulo: Login no Instagram com conta existente
 Pré condições: Ter uma conta cadastrada no site
