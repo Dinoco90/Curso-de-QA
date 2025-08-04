@@ -1,3 +1,5 @@
+Crie 1 bug report real, baseado em algo que você testou nos casos anteriores (Instagram ou YouTube), ou procure algum bug simples num site conhecido (ex: botão que não responde, campo que não valida).
+
 ID Bug1
 
 Título: Botão avançar não funciona
