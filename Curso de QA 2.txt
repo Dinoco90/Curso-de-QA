@@ -1,0 +1,15 @@
+Id: 1.
+Titulo: Login no Instagram com conta existente
+Pré condições: Ter uma conta cadastrada no site
+Passos: 1. Acessar página do Instagram 2. Preencher usuário e senha corretos 3. Clicar em "Entrar"
+Resultado esperado: Será redirecionado para a tela inicial do Instagram, o Feed.
+Resultado obtido: Login confirmado e usuário redirecionado para a página principal do Instagram
+Status: OK
+
+Id: 2
+Título: Login no youtube sem conta cadastrada
+Pré condições: Não ter uma conta cadastrada no site.
+Passos: 1. Acessar página do YouTube 2. Clicar em 'Fazer login' no canto superior direito 3. Digitar e-mail ou telefone
+Resultado esperado: Ira aparecer uma mensagem de aviso de que essa conta não existe ou não foi possível encontrar
+Resultado obtido: Assim que digitado um email ou telefone que não possui conta cadastrada, o sistema avisou de que não foi possível encontrar uma conta do Google com os dados fornecidos.
+Status: OK

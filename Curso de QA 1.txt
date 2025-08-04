@@ -1,0 +1,15 @@
+ID Bug1
+
+Título: Botão avançar não funciona
+
+Descrição: Assim que o usuário digita e-mail e senha, clica no botão para avançar e não acontece nada.
+
+Passos para reproduzir: Inserir os dados corretamente nos campos e clicar no botão de avançar 
+
+Resultado Esperado: Ao preencher os campos com as informações corretas, quando clicar no botão avançar, não acontecerá nada no site
+
+Resultado Obtido: Usuário preencheu os campos e quando clicou no botão de avançar, não acontecei nada na página 
+
+Severidade: Alta, pois o usuário não consegue logar.
+
+Evidência: Usuário mandou um vídeo da tela e clicando no botão para demos garr que não acontece nada
