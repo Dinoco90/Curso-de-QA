@@ -1,0 +1,64 @@
+🎯 Desafio de Simulação Real – "Caso do App de Viagem"
+Imagine que você foi contratado por uma empresa fictícia chamada "TripFlex", que tem um app de viagens simples. Sua tarefa como QA é revisar a funcionalidade de criação de nova reserva e identificar falhas.
+
+🎬 Cenário:
+O usuário entra no app e escolhe:
+
+Origem e destino
+
+Datas de ida e volta
+
+Quantidade de passageiros
+
+Clica em "Buscar"
+
+🧪 Tarefa:
+Crie 2 casos de teste baseados nessa funcionalidade:
+
+- Um positivo (reserva correta)
+
+- Um negativo (ex: deixar a data de volta antes da ida)
+
+Crie 1 bug report simulado, com base em um problema como:
+
+- Botão de “Buscar” não responde
+
+- Mensagem de erro confusa
+
+- Falta de validação em campos obrigatórios
+
+Resposta:
+
+Positivo:
+| Campo              | Descrição                                                         
+| ------------------ | ------------------------------------------------------------------------------------------------------------
+| ID                 | TP 1                                       
+| Título             | Reserva Correta
+| Pré-condições      | Usuário já sabe os dados que irá usar nos campos
+| Passos             | 1: Abrir o aplicativo. 2: Informar os dados solicitados. 3: Clicar em buscar
+| Resultado Esperado | O aplicativo irá informar quais as opções de viagem para o usuário com base nos dados inseridos por ele
+| Resultado Obtido   | O aplicativo trouxe as opções disponíveis com os dados que o usuário escolheu
+| Status             | OK
+
+Negativo:
+| Campo              | Descrição                                                         
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------
+| ID                 | TN 1                                       
+| Título             | Data de volta antes da ida
+| Pré-condições      | Usuario irá preencher a data de volta antes da ida
+| Passos             | 1: Abir o aplicativo. 2: Informar os dados solicitados. 3: Inserir as datas divergentes. 4: Clicar em buscar
+| Resultado Esperado | O aplicativo irá informar que as datas inseridas estão em conflito
+| Resultado Obtido   | O aplicativo mostrou uma mensagem de aviso nos campos das datas, informando o usuario de que a data de volta não pode ser antes da data de ida
+| Status             | OK
+
+Bug Report:
+| Campo                  | Valor                                                                              |
+| -----------------------| ---------------------------------------------------------------------------------- |
+| ID                     | BUG 1                                                                              |
+| Título                 | Mensagem de erro confusa
+| Descrição              | Preenchendo os dados e clicando em 'Buscar', aparece uma mensagem de erro confusa
+| Passos para reproduzir | 1: Abir o aplicativo. 2: Informar os dados solicitados. 4: Clicar em buscar
+| Resultado Esperado     | Exibir mensagem clara informando qual campo está incorreto (ex: "A data de ida não pode ser anterior a hoje").
+| Resultado Obtido       | Sistema mostra uma mensagem dizendo 'Dado inserido incorreto'
+| Severidade             | Alta. a mensagem impede o usuário de saber o que corrigir.
+| Evidência              | print da tela com o aviso 
