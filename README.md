@@ -1,29 +1,31 @@
-# 🧪 Curso de QA – Erick Oliveira
+# 🧪 Curso de QA – Portfólio de Erick Oliveira
 
-Este repositório reúne os materiais e exercícios desenvolvidos por mim durante meu curso prático de QA (Quality Assurance), focado em testes manuais, documentação e uso de ferramentas do mercado.
+Este repositório contém todos os exercícios e projetos práticos desenvolvidos durante meu curso de QA (Quality Assurance), com foco em testes manuais, documentação e ferramentas amplamente usadas no mercado.
 
 ## 📚 Conteúdos abordados
 
 - ✅ Fundamentos de QA e tipos de teste
-- ✅ Criação de casos de teste manuais
-- ✅ Relatórios de bugs (bug reports)
+- ✅ Casos de teste manuais (positivos e negativos)
+- ✅ Bug reports com severidade e evidência
+- ✅ Testes exploratórios (web e mobile)
 - ✅ Testes de API com Postman
-- ✅ Organização de portfólio em GitHub
+- ✅ Organização de portfólio via GitHub
 
-## 🗂️ Estrutura do repositório
+## 🗂️ Estrutura dos arquivos
 
-| Arquivo                     | Descrição                                                   |
-|----------------------------|--------------------------------------------------------------|
-| `Curso de QA 1.txt`        | Relato estruturado de um bug com severidade e evidência      |
-| `Curso de QA 2.txt`        | Casos de teste manuais feitos com base em sistemas reais     |
-| *(outros arquivos em breve)* | Conforme o curso avança, novos materiais serão adicionados |
+| Arquivo                                | Descrição                                                                 |
+|----------------------------------------|---------------------------------------------------------------------------|
+| `casos-de-teste.txt`                   | Casos de teste baseados em sistemas reais (Instagram, YouTube, etc.)      |
+| `bug-report.txt`                       | Exemplo de relato de bug com severidade e passo a passo                   |
+| `teste-exploratorio-kabum.md`          | Relatório exploratório do site da Kabum (versão desktop)                  |
+| `teste-mobile-mercado-livre.md`        | Relatório de teste mobile no site do Mercado Livre                        |
+| *(novos arquivos serão adicionados)*   | A cada etapa do curso                                                     |
 
-## 🚀 Objetivo
+## 📌 Objetivo
 
-Este repositório serve como **portfólio de entrada na área de QA**, e será atualizado com novos aprendizados, práticas e simulações à medida que vou aprendendo.
+Este repositório serve como portfólio para demonstrar meus conhecimentos em QA e testes de software. Ele será constantemente atualizado com novos desafios, simulações e aprendizados conforme avanço no curso.
 
 ---
 
 📫 **Contato:**  
-Caso deseje saber mais ou trocar ideias, me chame aqui pelo GitHub.
-
+erick_100100@outlook.com
