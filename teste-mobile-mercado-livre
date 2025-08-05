@@ -1,0 +1,42 @@
+# 📱 Teste Mobile – Mercado Livre (Exploratório)
+
+**Desenvolvido por:** Erick Oliveira  
+**Data:** 04/08/2025  
+**Objetivo:**  
+Executar um teste exploratório da versão mobile do site [Mercado Livre](https://www.mercadolivre.com.br), identificando pontos críticos relacionados à usabilidade, layout, responsividade e experiência do usuário em dispositivos móveis.
+
+---
+
+## ✅ Observações levantadas:
+
+1. **Busca sem correção automática:**  
+   Ao digitar o nome de um produto com erro de digitação, o site não tenta sugerir a correção.  
+   🔎 *Impacta a usabilidade, especialmente em telas pequenas com erros de digitação comuns.*
+
+2. **Textos difíceis de ler em telas pequenas:**  
+   Alguns textos ficam com tamanho reduzido e exigem esforço visual em celulares menores.  
+   🔎 *Problema de acessibilidade e legibilidade.*
+
+3. **CEP com feedback incompleto:**  
+   Ao digitar o CEP, o sistema mostra apenas a cidade e repete o CEP, mas não exibe o endereço completo para validação.  
+   🔎 *Falta de clareza no feedback pode gerar incerteza para o usuário.*
+
+4. **Baixo contraste visual:**  
+   Alguns trechos usam letras cinza sobre fundo cinza escuro, o que dificulta a leitura.  
+   🔎 *Problema clássico de acessibilidade visual.*
+
+5. **Layout quebrado no modo paisagem:**  
+   Ao girar o celular (modo horizontal), alguns elementos não se reposicionam e ficam alinhados apenas à esquerda da tela.  
+   🔎 *Problema de responsividade no layout.*
+
+---
+
+## 📝 Conclusão:
+
+O site apresentou alguns pontos que podem afetar diretamente a experiência do usuário em dispositivos móveis. São observações que merecem atenção, especialmente em interfaces que lidam com grande volume de usuários.
+
+Recomenda-se uma revisão nos aspectos de:
+
+- Acessibilidade (contraste e legibilidade)
+- Feedbacks visuais (mensagens claras e completas)
+- Responsividade e adaptação a diferentes tamanhos de tela
