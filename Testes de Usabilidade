@@ -1,0 +1,22 @@
+# 🧩 Teste de Usabilidade – Site Ponto Frio
+
+**Desenvolvido por:** Erick Oliveira  
+**Data:** (adicione a data do teste)  
+**Objetivo:** Avaliar a experiência do usuário em tarefas específicas no site [Ponto Frio](https://www.pontofrio.com.br), identificando pontos positivos e negativos de usabilidade.
+
+---
+
+## 📋 Observações
+
+| Tarefa | Observação | Impacto para o Usuário |
+|--------|------------|------------------------|
+| Inserir o CEP para calcular o valor | O endereço aparece em uma letra muito pequena | Dificulta a confirmação visual de que o endereço está correto |
+| Ver a foto do produto com zoom | Ao passar o mouse em cima da foto, dá um zoom | Muito positivo, pois mostra detalhes com clareza e ajuda na decisão de compra |
+| Navegar no site | O site usa uma paleta de cores bem contrastantes, como preto e branco | A página toda em branco pode forçar a vista do usuário em navegações longas |
+| Botão de voltar ao topo da página | Ao rolar até o final, aparece um botão para voltar ao topo | Excelente funcionalidade que economiza tempo e melhora a navegação |
+| Saber as formas de pagamento | No rodapé, há informações claras sobre formas de pagamento | Proporciona clareza e economia de tempo, evitando que o usuário precise chegar ao checkout para saber |
+
+---
+
+## 📌 Conclusão
+O site do Ponto Frio apresenta boas práticas de usabilidade, como o zoom em imagens e o botão de voltar ao topo, mas poderia melhorar a legibilidade de textos importantes e ajustar a paleta de cores para reduzir fadiga visual.
