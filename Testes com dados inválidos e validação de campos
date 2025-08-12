@@ -1,0 +1,23 @@
+# 🧪 Teste de Validação de Campos – Cadastro Amazon
+
+**Desenvolvido por:** Erick Oliveira  
+**Data:** 11/08/2025 
+**Objetivo:**  
+Testar validações de campos no formulário de cadastro da Amazon, utilizando dados inválidos para identificar falhas ou melhorias possíveis.
+
+---
+
+## 📝 Casos de Teste
+
+| ID   | Título | Passos | Resultado Esperado | Resultado Obtido | Status |
+|------|--------|--------|--------------------|------------------|--------|
+| T01  | Cadastro com número de celular inválido | 1. Abrir formulário<br>2. Digitar 8 dígitos no campo celular<br>3. Clicar em "Continuar" | Exibir mensagem "Número inválido" | Sistema exibiu "Número de celular inválido" | OK |
+| T02  | Cadastro com email sem arroba | 1. Abrir formulário<br>2. Digitar "teste.com.br" no campo Email<br>3. Clicar em "Verificar e-mail" | Mensagem "Formato de email inválido" | Mensagem genérica sem indicar ausência de '@' | FAIL |
+| T03  | Cadastro com nome muito extenso | 1. Abrir formulário<br>2. Digitar mais de 60 caracteres no campo Nome<br>3. Clicar em "Verificar" | Mensagem de ajuste no número de caracteres | Sistema permitiu digitação sem alertas | FAIL |
+| T04  | Cadastro com número no lugar do nome | 1. Abrir formulário<br>2. Digitar "123456789" no campo Nome<br>3. Clicar em "Verificar" | Mensagem de não reconhecimento de caracteres | Sistema permitiu digitação sem alertas | FAIL |
+| T05  | Cadastro com senha menor que o exigido | 1. Abrir formulário<br>2. Digitar 5 caracteres no campo Senha<br>3. Clicar em "Verificar" | Mensagem sobre insuficiência de caracteres | Sistema exibiu "Mínimo de 6 caracteres necessários" | OK |
+
+---
+
+## 📌 Conclusão
+O sistema da Amazon realiza validações básicas em alguns campos (telefone e senha), mas apresenta **lacunas de validação** em outros (email, nome e limite de caracteres), que podem impactar a integridade dos dados e a experiência do usuário.
