@@ -1,0 +1,22 @@
+# 🔄 Teste de Regressão – YouTube
+
+**ID:** TR01  
+**Alteração:** O botão de Login foi reposicionado na interface do YouTube.  
+**Caso de teste reexecutado:** "Botão de login redirecionando para a página de login"
+
+---
+
+## 📋 Detalhes do teste:
+
+**Resultado Esperado:**  
+Ao clicar no botão de login, o usuário deve ser redirecionado para a tela de login.
+
+**Resultado Obtido:**  
+Ao clicar no botão, o sistema redireciona corretamente para a página de login.
+
+**Status:** ✅ OK
+
+---
+
+## 📌 Conclusão:
+Apesar da alteração visual (mudança de posição do botão), a funcionalidade de login permaneceu intacta, confirmando que a alteração não impactou o fluxo de acesso.
